@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_marginTop="16dp"
+    >
+
+    <EditText
+        android:id="@+id/number2EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter second number"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="16dp"
+        />
+
+    <Button
+        android:id="@+id/validateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Validate"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
